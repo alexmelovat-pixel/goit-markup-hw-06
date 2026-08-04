@@ -97,8 +97,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: baseline;
-
-    gap: 120px;
+    column-gap: 0;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -107,6 +106,7 @@
   .footer-info {
     max-width: 264px;
     margin-right: 0;
+    margin-right: 120px;
   }
 
   .footer-social {
@@ -115,7 +115,7 @@
 
   .footer-subscribe {
     width: auto;
-    margin-left: 0;
+    margin-left: auto;
   }
 
   .footer-subscribe-form {
